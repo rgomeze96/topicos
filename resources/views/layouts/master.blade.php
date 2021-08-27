@@ -9,7 +9,7 @@
 </head>
 <body>
     <div id="app">
-        <nav class="navbar navbar-expand-md navbar-dark bg-dark shadow-sm">
+        <nav class="navbar navbar-expand-md navbar-light bg-light shadow-sm">
             <div class="container">
                 <a class="navbar-brand" href="{{ route('home.index') }}">
                     {{ config('app.name', 'Laravel') }}
@@ -21,7 +21,7 @@
                     <!-- Left Side Of Navbar -->
                     <ul class="navbar-nav mr-auto">
                         <!-- Future Left Side Links -->
-                        <a style="color: white" href="{{route('product.show', 121)}}">Product 121</a>
+                        <a href="{{route('product.show', 121)}}">Product 121</a>
                     </ul>
                     <!-- Right Side Of Navbar -->
                     <ul class="navbar-nav ml-auto">
